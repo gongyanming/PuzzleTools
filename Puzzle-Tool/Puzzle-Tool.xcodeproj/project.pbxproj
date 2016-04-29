@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C256F31CD33A76004369AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C256F21CD33A76004369AD /* AppDelegate.m */; };
+		28C256F61CD33A76004369AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C256F51CD33A76004369AD /* main.m */; };
+		28C256F81CD33A76004369AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C256F71CD33A76004369AD /* Assets.xcassets */; };
+		28C256FB1CD33A76004369AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28C256F91CD33A76004369AD /* MainMenu.xib */; };
+		28C257061CD33A76004369AD /* Puzzle_ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C257051CD33A76004369AD /* Puzzle_ToolTests.m */; };
+		28C257111CD33A76004369AD /* Puzzle_ToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C257101CD33A76004369AD /* Puzzle_ToolUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28C257021CD33A76004369AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C256E61CD33A76004369AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C256ED1CD33A76004369AD;
+			remoteInfo = "Puzzle-Tool";
+		};
+		28C2570D1CD33A76004369AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28C256E61CD33A76004369AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28C256ED1CD33A76004369AD;
+			remoteInfo = "Puzzle-Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C256EE1CD33A76004369AD /* Puzzle-Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzzle-Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C256F11CD33A76004369AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28C256F21CD33A76004369AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28C256F51CD33A76004369AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28C256F71CD33A76004369AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28C256FA1CD33A76004369AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28C256FC1CD33A76004369AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C257011CD33A76004369AD /* Puzzle-ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puzzle-ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C257051CD33A76004369AD /* Puzzle_ToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzzle_ToolTests.m; sourceTree = "<group>"; };
+		28C257071CD33A76004369AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C2570C1CD33A76004369AD /* Puzzle-ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puzzle-ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C257101CD33A76004369AD /* Puzzle_ToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzzle_ToolUITests.m; sourceTree = "<group>"; };
+		28C257121CD33A76004369AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28C256EB1CD33A76004369AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C256FE1CD33A76004369AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C257091CD33A76004369AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C256E51CD33A76004369AD = {
+			isa = PBXGroup;
+			children = (
+				28C256F01CD33A76004369AD /* Puzzle-Tool */,
+				28C257041CD33A76004369AD /* Puzzle-ToolTests */,
+				28C2570F1CD33A76004369AD /* Puzzle-ToolUITests */,
+				28C256EF1CD33A76004369AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28C256EF1CD33A76004369AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28C256EE1CD33A76004369AD /* Puzzle-Tool.app */,
+				28C257011CD33A76004369AD /* Puzzle-ToolTests.xctest */,
+				28C2570C1CD33A76004369AD /* Puzzle-ToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28C256F01CD33A76004369AD /* Puzzle-Tool */ = {
+			isa = PBXGroup;
+			children = (
+				28C256F11CD33A76004369AD /* AppDelegate.h */,
+				28C256F21CD33A76004369AD /* AppDelegate.m */,
+				28C256F71CD33A76004369AD /* Assets.xcassets */,
+				28C256F91CD33A76004369AD /* MainMenu.xib */,
+				28C256FC1CD33A76004369AD /* Info.plist */,
+				28C256F41CD33A76004369AD /* Supporting Files */,
+			);
+			path = "Puzzle-Tool";
+			sourceTree = "<group>";
+		};
+		28C256F41CD33A76004369AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28C256F51CD33A76004369AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28C257041CD33A76004369AD /* Puzzle-ToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				28C257051CD33A76004369AD /* Puzzle_ToolTests.m */,
+				28C257071CD33A76004369AD /* Info.plist */,
+			);
+			path = "Puzzle-ToolTests";
+			sourceTree = "<group>";
+		};
+		28C2570F1CD33A76004369AD /* Puzzle-ToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28C257101CD33A76004369AD /* Puzzle_ToolUITests.m */,
+				28C257121CD33A76004369AD /* Info.plist */,
+			);
+			path = "Puzzle-ToolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28C256ED1CD33A76004369AD /* Puzzle-Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C257151CD33A76004369AD /* Build configuration list for PBXNativeTarget "Puzzle-Tool" */;
+			buildPhases = (
+				28C256EA1CD33A76004369AD /* Sources */,
+				28C256EB1CD33A76004369AD /* Frameworks */,
+				28C256EC1CD33A76004369AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puzzle-Tool";
+			productName = "Puzzle-Tool";
+			productReference = 28C256EE1CD33A76004369AD /* Puzzle-Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28C257001CD33A76004369AD /* Puzzle-ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C257181CD33A76004369AD /* Build configuration list for PBXNativeTarget "Puzzle-ToolTests" */;
+			buildPhases = (
+				28C256FD1CD33A76004369AD /* Sources */,
+				28C256FE1CD33A76004369AD /* Frameworks */,
+				28C256FF1CD33A76004369AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C257031CD33A76004369AD /* PBXTargetDependency */,
+			);
+			name = "Puzzle-ToolTests";
+			productName = "Puzzle-ToolTests";
+			productReference = 28C257011CD33A76004369AD /* Puzzle-ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28C2570B1CD33A76004369AD /* Puzzle-ToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28C2571B1CD33A76004369AD /* Build configuration list for PBXNativeTarget "Puzzle-ToolUITests" */;
+			buildPhases = (
+				28C257081CD33A76004369AD /* Sources */,
+				28C257091CD33A76004369AD /* Frameworks */,
+				28C2570A1CD33A76004369AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28C2570E1CD33A76004369AD /* PBXTargetDependency */,
+			);
+			name = "Puzzle-ToolUITests";
+			productName = "Puzzle-ToolUITests";
+			productReference = 28C2570C1CD33A76004369AD /* Puzzle-ToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28C256E61CD33A76004369AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "龚彦铭";
+				TargetAttributes = {
+					28C256ED1CD33A76004369AD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					28C257001CD33A76004369AD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 28C256ED1CD33A76004369AD;
+					};
+					28C2570B1CD33A76004369AD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 28C256ED1CD33A76004369AD;
+					};
+				};
+			};
+			buildConfigurationList = 28C256E91CD33A76004369AD /* Build configuration list for PBXProject "Puzzle-Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28C256E51CD33A76004369AD;
+			productRefGroup = 28C256EF1CD33A76004369AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28C256ED1CD33A76004369AD /* Puzzle-Tool */,
+				28C257001CD33A76004369AD /* Puzzle-ToolTests */,
+				28C2570B1CD33A76004369AD /* Puzzle-ToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28C256EC1CD33A76004369AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C256F81CD33A76004369AD /* Assets.xcassets in Resources */,
+				28C256FB1CD33A76004369AD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C256FF1CD33A76004369AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C2570A1CD33A76004369AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28C256EA1CD33A76004369AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C256F61CD33A76004369AD /* main.m in Sources */,
+				28C256F31CD33A76004369AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C256FD1CD33A76004369AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C257061CD33A76004369AD /* Puzzle_ToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28C257081CD33A76004369AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28C257111CD33A76004369AD /* Puzzle_ToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28C257031CD33A76004369AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C256ED1CD33A76004369AD /* Puzzle-Tool */;
+			targetProxy = 28C257021CD33A76004369AD /* PBXContainerItemProxy */;
+		};
+		28C2570E1CD33A76004369AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28C256ED1CD33A76004369AD /* Puzzle-Tool */;
+			targetProxy = 28C2570D1CD33A76004369AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28C256F91CD33A76004369AD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28C256FA1CD33A76004369AD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28C257131CD33A76004369AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28C257141CD33A76004369AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28C257161CD33A76004369AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Puzzle-Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Camera360.Puzzle-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28C257171CD33A76004369AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Puzzle-Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Camera360.Puzzle-Tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28C257191CD33A76004369AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Puzzle-ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Camera360.Puzzle-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puzzle-Tool.app/Contents/MacOS/Puzzle-Tool";
+			};
+			name = Debug;
+		};
+		28C2571A1CD33A76004369AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Puzzle-ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Camera360.Puzzle-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puzzle-Tool.app/Contents/MacOS/Puzzle-Tool";
+			};
+			name = Release;
+		};
+		28C2571C1CD33A76004369AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Puzzle-ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Camera360.Puzzle-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Puzzle-Tool";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		28C2571D1CD33A76004369AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Puzzle-ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.Camera360.Puzzle-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Puzzle-Tool";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28C256E91CD33A76004369AD /* Build configuration list for PBXProject "Puzzle-Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C257131CD33A76004369AD /* Debug */,
+				28C257141CD33A76004369AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28C257151CD33A76004369AD /* Build configuration list for PBXNativeTarget "Puzzle-Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C257161CD33A76004369AD /* Debug */,
+				28C257171CD33A76004369AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28C257181CD33A76004369AD /* Build configuration list for PBXNativeTarget "Puzzle-ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C257191CD33A76004369AD /* Debug */,
+				28C2571A1CD33A76004369AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28C2571B1CD33A76004369AD /* Build configuration list for PBXNativeTarget "Puzzle-ToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C2571C1CD33A76004369AD /* Debug */,
+				28C2571D1CD33A76004369AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28C256E61CD33A76004369AD /* Project object */;
+}
